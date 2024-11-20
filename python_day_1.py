@@ -1,4 +1,4 @@
-def check_depth_increasing_in_measurement(str_of_depth: str) -> int:
+def check_increasing_depth(str_of_depth: str) -> int:
     # we want to get the count of how many depths measurement are higher than the previous
     # for example if the depth measurement is 1,2,4,7,5,8,2 the answer would be 4
     # convert the str into a list
@@ -2013,4 +2013,4 @@ depths: str = """
 2646
 2658
 """
-print(check_depth_increasing_in_measurement(depths))
+print(check_increasing_depth(depths))
