@@ -11,9 +11,6 @@ def check_depth_increasing_in_measurement(str_of_depth: str) -> int:
         i += 1
     return count
 
-#so you dont have to scroll, this print line follows the depth str
-# print(check_depth_increasing_in_measurement(depths))
-
 depths: str = """
 193
 197
